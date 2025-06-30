@@ -1,0 +1,10 @@
+[26-Jun-2025 04:36:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'regster_date' in 'field list' in C:\xampp\htdocs\test211.php:93
+Stack trace:
+#0 C:\xampp\htdocs\test211.php(93): mysqli_prepare(Object(mysqli), 'INSERT INTO stu...')
+#1 {main}
+  thrown in C:\xampp\htdocs\test211.php on line 93
+[26-Jun-2025 14:25:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\test211.php:14
+Stack trace:
+#0 C:\xampp\htdocs\test211.php(14): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'courses')
+#1 {main}
+  thrown in C:\xampp\htdocs\test211.php on line 14
